@@ -1,0 +1,169 @@
+\contentsline {part}{Abstract}{i}{Doc-Start}
+\contentsline {part}{Acknowledgements}{i}{chapter*.1}
+\contentsline {part}{Introduction}{ix}{chapter*.3}
+\contentsline {section}{Accompanying Resources}{ix}{chapter*.4}
+\contentsline {subsection}{Wiki}{ix}{section*.5}
+\contentsline {subsection}{GitHub}{x}{section*.6}
+\contentsline {subsection}{YouTube}{x}{section*.7}
+\contentsline {subsection}{Facebook}{xi}{section*.8}
+\contentsline {subsection}{Website}{xi}{section*.9}
+\contentsline {section}{How to Read}{xi}{section*.10}
+\contentsline {section}{Revisions}{xii}{section*.11}
+\contentsline {section}{Contact}{xii}{section*.12}
+\contentsline {part}{I\hspace {1em}Metadata}{1}{part.1}
+\contentsline {chapter}{\numberline {1}History}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}BaralabaBob}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Beaker}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Conclusion}{6}{section.1.3}
+\contentsline {chapter}{\numberline {2}Team}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}John Board}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}History}{7}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Media}{8}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}This Year}{8}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Next Year}{9}{subsection.2.1.4}
+\contentsline {chapter}{\numberline {3}Sharing}{10}{chapter.3}
+\contentsline {part}{II\hspace {1em}Log}{13}{part.2}
+\contentsline {chapter}{\numberline {4}August 2015}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}August 28th/29th, 2015}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}August 30th, 2015}{17}{section.4.2}
+\contentsline {section}{\numberline {4.3}August 31st, 2015}{19}{section.4.3}
+\contentsline {chapter}{\numberline {5}September 2015}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}September 1st, 2015}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}September 2nd, 2015}{23}{section.5.2}
+\contentsline {section}{\numberline {5.3}September 3rd, 2015}{24}{section.5.3}
+\contentsline {section}{\numberline {5.4}September 11th, 2015}{25}{section.5.4}
+\contentsline {section}{\numberline {5.5}September 12th, 2015}{29}{section.5.5}
+\contentsline {part}{III\hspace {1em}Performance}{33}{part.3}
+\contentsline {chapter}{\numberline {6}Robots}{34}{chapter.6}
+\contentsline {section}{\numberline {6.1}BaralabaBob}{34}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Technical Manual}{34}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Construction}{34}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Software}{38}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}BobMobile}{39}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}History}{39}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Controllers}{40}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Software}{41}{subsection.6.2.3}
+\contentsline {subsubsection}{Beaker}{41}{section*.14}
+\contentsline {subsubsection}{BobMobile}{41}{section*.15}
+\contentsline {subsection}{\numberline {6.2.4}Decks}{42}{subsection.6.2.4}
+\contentsline {subsubsection}{Bottom Deck}{42}{section*.16}
+\contentsline {subsubsection}{Top Deck}{42}{section*.17}
+\contentsline {section}{\numberline {6.3}Stage}{42}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Sub-systems}{42}{subsection.6.3.1}
+\contentsline {subsubsection}{The Curtains}{43}{section*.18}
+\contentsline {subsection}{\numberline {6.3.2}The Fog}{43}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}The Lighting}{43}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Button-sync}{44}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Design Considerations}{44}{subsection.6.3.5}
+\contentsline {chapter}{\numberline {7}Props}{45}{chapter.7}
+\contentsline {part}{IV\hspace {1em}Routine Development}{46}{part.4}
+\contentsline {section}{\numberline {7.1}Parts of a Routine}{48}{section.7.1}
+\contentsline {chapter}{\numberline {8}Audio}{49}{chapter.8}
+\contentsline {section}{\numberline {8.1}Audio Uses}{49}{section.8.1}
+\contentsline {section}{\numberline {8.2}Audio Selection}{50}{section.8.2}
+\contentsline {section}{\numberline {8.3}Audio Editing}{51}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Fade In/Fade Out}{52}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Cutting Parts of the Song Together}{53}{subsection.8.3.2}
+\contentsline {chapter}{\numberline {9}Robot Performance/Animation}{54}{chapter.9}
+\contentsline {section}{\numberline {9.1}Animation}{54}{section.9.1}
+\contentsline {section}{\numberline {9.2}Performance}{56}{section.9.2}
+\contentsline {chapter}{\numberline {10}Human Performance}{58}{chapter.10}
+\contentsline {section}{\numberline {10.1}Human Interaction Incidence}{59}{section.10.1}
+\contentsline {section}{\numberline {10.2}Stage Presence/Audience Interactivity}{59}{section.10.2}
+\contentsline {chapter}{\numberline {11}Props}{60}{chapter.11}
+\contentsline {chapter}{\numberline {12}Story}{62}{chapter.12}
+\contentsline {part}{V\hspace {1em}Research and Development}{63}{part.5}
+\contentsline {chapter}{\numberline {13}Blender Animation}{65}{chapter.13}
+\contentsline {section}{\numberline {13.1}Base Software Choice}{66}{section.13.1}
+\contentsline {section}{\numberline {13.2}Model}{66}{section.13.2}
+\contentsline {section}{\numberline {13.3}Scripting}{66}{section.13.3}
+\contentsline {section}{\numberline {13.4}Linear \& Bezier Modes}{67}{section.13.4}
+\contentsline {chapter}{\numberline {14}Laser Localization System}{69}{chapter.14}
+\contentsline {section}{\numberline {14.1}System Concepts}{70}{section.14.1}
+\contentsline {section}{\numberline {14.2}Laser Tracking}{71}{section.14.2}
+\contentsline {section}{\numberline {14.3}Issues with the LDR System}{71}{section.14.3}
+\contentsline {section}{\numberline {14.4}Rule Legality \& Safety Considerations}{72}{section.14.4}
+\contentsline {chapter}{\numberline {15}RF Networking}{75}{chapter.15}
+\contentsline {section}{\numberline {15.1}433MHz}{75}{section.15.1}
+\contentsline {section}{\numberline {15.2}2.4GHz - nRF24L01+}{76}{section.15.2}
+\contentsline {subsection}{\numberline {15.2.1}2.4GHz interference Solution}{79}{subsection.15.2.1}
+\contentsline {chapter}{\numberline {16}Fog}{80}{chapter.16}
+\contentsline {section}{\numberline {16.1}Projection Mapping}{84}{section.16.1}
+\contentsline {chapter}{\numberline {17}Helicopter}{85}{chapter.17}
+\contentsline {chapter}{\numberline {18}3D Printing}{86}{chapter.18}
+\contentsline {chapter}{\numberline {19}Inverse Kinematics}{88}{chapter.19}
+\contentsline {chapter}{\numberline {20}LaTeX}{89}{chapter.20}
+\contentsline {chapter}{\numberline {21}Lighting}{90}{chapter.21}
+\contentsline {part}{VI\hspace {1em}BaralabaBob Technical Manual}{92}{part.6}
+\contentsline {chapter}{\numberline {22}Introduction}{93}{chapter.22}
+\contentsline {section}{\numberline {22.1}History}{93}{section.22.1}
+\contentsline {section}{\numberline {22.2}Uniqueness}{93}{section.22.2}
+\contentsline {chapter}{\numberline {23}Electronics}{95}{chapter.23}
+\contentsline {section}{\numberline {23.1}Control Boards}{96}{section.23.1}
+\contentsline {subsection}{\numberline {23.1.1}SCC-32 Servo Controller}{96}{subsection.23.1.1}
+\contentsline {subsection}{\numberline {23.1.2}Raspberry Pi Model B}{96}{subsection.23.1.2}
+\contentsline {subsubsection}{Storage}{97}{section*.19}
+\contentsline {subsubsection}{Previous Controllers}{98}{section*.20}
+\contentsline {section}{\numberline {23.2}Power Supply}{99}{section.23.2}
+\contentsline {subsection}{\numberline {23.2.1}Lab Power Supply}{99}{subsection.23.2.1}
+\contentsline {subsection}{\numberline {23.2.2}Battery}{99}{subsection.23.2.2}
+\contentsline {subsubsection}{LiPo Disposal}{101}{section*.21}
+\contentsline {chapter}{\numberline {24}Software}{103}{chapter.24}
+\contentsline {section}{\numberline {24.1}Operating System}{104}{section.24.1}
+\contentsline {subsection}{\numberline {24.1.1}Image Download}{104}{subsection.24.1.1}
+\contentsline {subsection}{\numberline {24.1.2}Building Image}{104}{subsection.24.1.2}
+\contentsline {section}{\numberline {24.2}Networking}{105}{section.24.2}
+\contentsline {subsection}{\numberline {24.2.1}Ethernet}{106}{subsection.24.2.1}
+\contentsline {subsection}{\numberline {24.2.2}WiFi}{106}{subsection.24.2.2}
+\contentsline {subsection}{\numberline {24.2.3}Serial}{106}{subsection.24.2.3}
+\contentsline {subsection}{\numberline {24.2.4}Current Configuration}{106}{subsection.24.2.4}
+\contentsline {section}{\numberline {24.3}Access}{107}{section.24.3}
+\contentsline {subsection}{\numberline {24.3.1}Terminal}{107}{subsection.24.3.1}
+\contentsline {subsubsection}{SSH}{107}{section*.22}
+\contentsline {subsubsection}{Physical}{107}{section*.23}
+\contentsline {subsubsection}{Serial}{107}{section*.24}
+\contentsline {subsection}{\numberline {24.3.2}File}{107}{subsection.24.3.2}
+\contentsline {subsubsection}{SFTP}{108}{section*.25}
+\contentsline {subsubsection}{FTP}{108}{section*.26}
+\contentsline {section}{\numberline {24.4}Software Used}{109}{section.24.4}
+\contentsline {subsection}{\numberline {24.4.1}Blender}{109}{subsection.24.4.1}
+\contentsline {subsection}{\numberline {24.4.2}PuTTY}{109}{subsection.24.4.2}
+\contentsline {subsection}{\numberline {24.4.3}PyCharm}{110}{subsection.24.4.3}
+\contentsline {subsection}{\numberline {24.4.4}Python 3.4.3}{110}{subsection.24.4.4}
+\contentsline {subsection}{\numberline {24.4.5}FileZilla}{110}{subsection.24.4.5}
+\contentsline {section}{\numberline {24.5}Blender}{111}{section.24.5}
+\contentsline {subsection}{\numberline {24.5.1}Building Blender Image}{111}{subsection.24.5.1}
+\contentsline {section}{\numberline {24.6}Embedded Content}{112}{section.24.6}
+\contentsline {chapter}{\numberline {25}Programming}{113}{chapter.25}
+\contentsline {section}{\numberline {25.1}Backend}{114}{section.25.1}
+\contentsline {subsection}{\numberline {25.1.1}Amelior}{114}{subsection.25.1.1}
+\contentsline {subsubsection}{Model}{114}{section*.27}
+\contentsline {subsubsection}{Scripting}{115}{section*.28}
+\contentsline {subsubsection}{Blender Playback}{115}{section*.29}
+\contentsline {subsubsection}{Inverse Kinematics}{116}{section*.30}
+\contentsline {subsection}{\numberline {25.1.2}Shalom}{117}{subsection.25.1.2}
+\contentsline {subsection}{\numberline {25.1.3}BaralabaBob}{117}{subsection.25.1.3}
+\contentsline {subsection}{\numberline {25.1.4}GoombungeShowServer}{118}{subsection.25.1.4}
+\contentsline {subsection}{\numberline {25.1.5}GoombungeeShowClient}{118}{subsection.25.1.5}
+\contentsline {subsection}{\numberline {25.1.6}IKExperiment}{118}{subsection.25.1.6}
+\contentsline {subsection}{\numberline {25.1.7}JoystickController}{118}{subsection.25.1.7}
+\contentsline {section}{\numberline {25.2}Blender}{119}{section.25.2}
+\contentsline {subsection}{\numberline {25.2.1}Location}{119}{subsection.25.2.1}
+\contentsline {subsection}{\numberline {25.2.2}Blender Design Standards}{119}{subsection.25.2.2}
+\contentsline {section}{\numberline {25.3}Amelior}{120}{section.25.3}
+\contentsline {subsection}{\numberline {25.3.1}Model Configuration}{120}{subsection.25.3.1}
+\contentsline {subsubsection}{hexapod.cfg}{120}{section*.31}
+\contentsline {section}{\numberline {25.4}Git}{121}{section.25.4}
+\contentsline {subsection}{\numberline {25.4.1}Git Clone Instructions}{121}{subsection.25.4.1}
+\contentsline {subsubsection}{HTTPS Clone}{122}{section*.32}
+\contentsline {subsubsection}{SSH Clone}{122}{section*.33}
+\contentsline {chapter}{\numberline {26}Mechanical}{123}{chapter.26}
+\contentsline {section}{\numberline {26.1}Dimensions}{123}{section.26.1}
+\contentsline {section}{\numberline {26.2}Kit Information}{123}{section.26.2}
+\contentsline {section}{\numberline {26.3}Maintenance}{125}{section.26.3}
+\contentsline {section}{\numberline {26.4}Motor Burnout}{125}{section.26.4}
+\contentsline {section}{\numberline {26.5}Screw Sizes}{125}{section.26.5}
+\contentsline {part}{VII\hspace {1em}Appendix}{126}{part.7}
+\contentsline {chapter}{\numberline {27}Test \& Tag Inventory}{127}{chapter.27}
+\contentsline {chapter}{\numberline {28}Bill of Materials}{129}{chapter.28}
+\contentsline {part}{VIII\hspace {1em}Index}{130}{part.8}

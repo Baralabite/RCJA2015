@@ -1,0 +1,581 @@
+\indexentry{Baralaba Robotics|hyperpage}{i}
+\indexentry{Adelaide|hyperpage}{i}
+\indexentry{documentation|hyperpage}{i}
+\indexentry{recreate|hyperpage}{i}
+\indexentry{index|hyperpage}{i}
+\indexentry{mistake|hyperpage}{i}
+\indexentry{email|hyperpage}{i}
+\indexentry{BBC|hyperpage}{ii}
+\indexentry{Brisbane Boy's College|hyperpage}{ii}
+\indexentry{wiki|hyperpage}{ix}
+\indexentry{rescue|hyperpage}{ix}
+\indexentry{sensors|hyperpage}{x}
+\indexentry{GitHub|hyperpage}{x}
+\indexentry{repository|hyperpage}{x}
+\indexentry{log|hyperpage}{xi}
+\indexentry{index|hyperpage}{xi}
+\indexentry{regionals|hyperpage}{xii}
+\indexentry{regionals|hyperpage}{xii}
+\indexentry{states|hyperpage}{xii}
+\indexentry{Nationals|hyperpage}{xii}
+\indexentry{contact me|hyperpage}{xii}
+\indexentry{email|hyperpage}{xiii}
+\indexentry{contact|hyperpage}{xiii}
+\indexentry{metadata|hyperpage}{2}
+\indexentry{history|hyperpage}{2}
+\indexentry{data|hyperpage}{2}
+\indexentry{history|hyperpage}{3}
+\indexentry{Goombungee|hyperpage}{3}
+\indexentry{Goombungee|hyperpage}{3}
+\indexentry{robotics|hyperpage}{3}
+\indexentry{BaralabaBob|hyperpage}{3}
+\indexentry{hexapod|hyperpage}{3}
+\indexentry{robotics|hyperpage}{3}
+\indexentry{BaralabaBob|hyperpage}{3}
+\indexentry{Goombungee|hyperpage}{3}
+\indexentry{hexapod|hyperpage}{3}
+\indexentry{Goombungee|hyperpage}{3}
+\indexentry{system|hyperpage}{3}
+\indexentry{reliably|hyperpage}{3}
+\indexentry{reliability|hyperpage}{3}
+\indexentry{reliable|hyperpage}{5}
+\indexentry{remotely|hyperpage}{5}
+\indexentry{challenges|hyperpage}{5}
+\indexentry{reliable|hyperpage}{5}
+\indexentry{codebase|hyperpage}{5}
+\indexentry{python|hyperpage}{5}
+\indexentry{Raspberry Pi|hyperpage}{5}
+\indexentry{Goombungee|hyperpage}{5}
+\indexentry{library|hyperpage}{5}
+\indexentry{PowerPoint|hyperpage}{5}
+\indexentry{interactive|hyperpage}{5}
+\indexentry{Beaker|hyperpage}{5}
+\indexentry{robot|hyperpage}{5}
+\indexentry{motors|hyperpage}{5}
+\indexentry{Beaker|hyperpage}{5}
+\indexentry{Beaker|hyperpage}{6}
+\indexentry{joystick|hyperpage}{6}
+\indexentry{prototyped|hyperpage}{6}
+\indexentry{Microsoft|hyperpage}{6}
+\indexentry{Kinect|hyperpage}{6}
+\indexentry{Beaker|hyperpage}{6}
+\indexentry{joystick|hyperpage}{6}
+\indexentry{Goombungee|hyperpage}{6}
+\indexentry{learned|hyperpage}{6}
+\indexentry{reliable|hyperpage}{6}
+\indexentry{Goombungee|hyperpage}{6}
+\indexentry{Baralaba Robotics|hyperpage}{7}
+\indexentry{Baralaba|hyperpage}{7}
+\indexentry{regional|hyperpage}{7}
+\indexentry{state|hyperpage}{7}
+\indexentry{national|hyperpage}{7}
+\indexentry{rescue|hyperpage}{7}
+\indexentry{Rockhampton|hyperpage}{7}
+\indexentry{Parallax|hyperpage}{7}
+\indexentry{Canberra|hyperpage}{8}
+\indexentry{media|hyperpage}{8}
+\indexentry{newspaper|hyperpage}{8}
+\indexentry{TV|hyperpage}{8}
+\indexentry{TV|hyperpage}{8}
+\indexentry{Rescue|hyperpage}{8}
+\indexentry{Dance|hyperpage}{8}
+\indexentry{dance|hyperpage}{8}
+\indexentry{performance|hyperpage}{8}
+\indexentry{counterpointal|hyperpage}{8}
+\indexentry{conversation|hyperpage}{8}
+\indexentry{robotics|hyperpage}{8}
+\indexentry{goal|hyperpage}{9}
+\indexentry{Bachelor|hyperpage}{9}
+\indexentry{Mechatronics|hyperpage}{9}
+\indexentry{Robotics|hyperpage}{9}
+\indexentry{Areospace|hyperpage}{9}
+\indexentry{Avionics|hyperpage}{9}
+\indexentry{QUT|hyperpage}{9}
+\indexentry{sharing|hyperpage}{10}
+\indexentry{open source|hyperpage}{10}
+\indexentry{community|hyperpage}{10}
+\indexentry{ADC|hyperpage}{10}
+\indexentry{Analog Digital Converter|hyperpage}{10}
+\indexentry{Premier Rescue|hyperpage}{10}
+\indexentry{Achilles|hyperpage}{10}
+\indexentry{Parallax Forum|hyperpage}{10}
+\indexentry{forums|hyperpage}{10}
+\indexentry{MCP3208|hyperpage}{10}
+\indexentry{SPI|hyperpage}{10}
+\indexentry{generosity|hyperpage}{10}
+\indexentry{wires|hyperpage}{10}
+\indexentry{motors|hyperpage}{10}
+\indexentry{components|hyperpage}{10}
+\indexentry{Goombungee|hyperpage}{11}
+\indexentry{exhibit|hyperpage}{11}
+\indexentry{robotics|hyperpage}{11}
+\indexentry{library|hyperpage}{11}
+\indexentry{Baralaba|hyperpage}{11}
+\indexentry{talks|hyperpage}{11}
+\indexentry{students|hyperpage}{11}
+\indexentry{Ambulance Station|hyperpage}{11}
+\indexentry{Baralaba|hyperpage}{11}
+\indexentry{Wowam|hyperpage}{11}
+\indexentry{FiftySix|hyperpage}{11}
+\indexentry{writing|hyperpage}{11}
+\indexentry{curriculum|hyperpage}{11}
+\indexentry{tablet|hyperpage}{11}
+\indexentry{robotics|hyperpage}{11}
+\indexentry{RCJCQ|hyperpage}{11}
+\indexentry{mechanical|hyperpage}{11}
+\indexentry{Lego|hyperpage}{11}
+\indexentry{programming|hyperpage}{11}
+\indexentry{experience|hyperpage}{11}
+\indexentry{Wiki|hyperpage}{11}
+\indexentry{contact|hyperpage}{11}
+\indexentry{robotics|hyperpage}{11}
+\indexentry{GitHub|hyperpage}{12}
+\indexentry{GitHub|hyperpage}{12}
+\indexentry{copyright|hyperpage}{12}
+\indexentry{UQ|hyperpage}{12}
+\indexentry{UQ Robotics Club|hyperpage}{12}
+\indexentry{students|hyperpage}{12}
+\indexentry{community|hyperpage}{12}
+\indexentry{log|hyperpage}{14}
+\indexentry{git|hyperpage}{14}
+\indexentry{nRF24L01+|hyperpage}{15}
+\indexentry{Propeller Chip|hyperpage}{15}
+\indexentry{C|hyperpage}{15}
+\indexentry{PropGCC|hyperpage}{15}
+\indexentry{linked lists|hyperpage}{15}
+\indexentry{reliably|hyperpage}{15}
+\indexentry{progress|hyperpage}{15}
+\indexentry{SPI|hyperpage}{15}
+\indexentry{nRF24L01+|hyperpage}{15}
+\indexentry{byte|hyperpage}{16}
+\indexentry{nRF24L01+|hyperpage}{16}
+\indexentry{GitHub|hyperpage}{16}
+\indexentry{packet|hyperpage}{16}
+\indexentry{packet|hyperpage}{16}
+\indexentry{FIFO|hyperpage}{16}
+\indexentry{buffer|hyperpage}{16}
+\indexentry{MCU|hyperpage}{16}
+\indexentry{nRF24L01+|hyperpage}{16}
+\indexentry{buffers|hyperpage}{16}
+\indexentry{MCU|hyperpage}{16}
+\indexentry{logic analyzer|hyperpage}{17}
+\indexentry{power|hyperpage}{17}
+\indexentry{switch|hyperpage}{17}
+\indexentry{servo|hyperpage}{17}
+\indexentry{transmitter|hyperpage}{17}
+\indexentry{receiver|hyperpage}{17}
+\indexentry{logic analyzer|hyperpage}{17}
+\indexentry{nRF24L01+|hyperpage}{17}
+\indexentry{transmitter|hyperpage}{17}
+\indexentry{byte|hyperpage}{17}
+\indexentry{receiver|hyperpage}{17}
+\indexentry{IRQ|hyperpage}{17}
+\indexentry{bit|hyperpage}{18}
+\indexentry{transmitter|hyperpage}{18}
+\indexentry{packet|hyperpage}{18}
+\indexentry{robust|hyperpage}{18}
+\indexentry{routine|hyperpage}{19}
+\indexentry{criteria|hyperpage}{19}
+\indexentry{routine|hyperpage}{19}
+\indexentry{regionals|hyperpage}{19}
+\indexentry{genres|hyperpage}{19}
+\indexentry{website|hyperpage}{19}
+\indexentry{rendering|hyperpage}{19}
+\indexentry{Blender|hyperpage}{19}
+\indexentry{freestyle|hyperpage}{20}
+\indexentry{Inkscape|hyperpage}{20}
+\indexentry{blackboard|hyperpage}{20}
+\indexentry{regionals|hyperpage}{21}
+\indexentry{routine|hyperpage}{21}
+\indexentry{state|hyperpage}{21}
+\indexentry{Christmas Tree|hyperpage}{21}
+\indexentry{stage|hyperpage}{21}
+\indexentry{songs|hyperpage}{22}
+\indexentry{theme|hyperpage}{22}
+\indexentry{screenshot|hyperpage}{22}
+\indexentry{brainstorming|hyperpage}{22}
+\indexentry{spreadsheet|hyperpage}{22}
+\indexentry{story telling|hyperpage}{22}
+\indexentry{modeled|hyperpage}{22}
+\indexentry{songs|hyperpage}{22}
+\indexentry{Audacity|hyperpage}{22}
+\indexentry{audio editing|hyperpage}{22}
+\indexentry{cutting audio|hyperpage}{22}
+\indexentry{Wordpress|hyperpage}{23}
+\indexentry{Enigma|hyperpage}{23}
+\indexentry{songs|hyperpage}{23}
+\indexentry{nationals|hyperpage}{23}
+\indexentry{hexapod|hyperpage}{23}
+\indexentry{lab coat|hyperpage}{23}
+\indexentry{monitor|hyperpage}{25}
+\indexentry{power jack|hyperpage}{25}
+\indexentry{jack|hyperpage}{25}
+\indexentry{BitBucket|hyperpage}{27}
+\indexentry{BitBucket|hyperpage}{27}
+\indexentry{VPS|hyperpage}{27}
+\indexentry{hosting|hyperpage}{27}
+\indexentry{Amazon|hyperpage}{27}
+\indexentry{EC2|hyperpage}{27}
+\indexentry{Linux|hyperpage}{27}
+\indexentry{Ubuntu|hyperpage}{27}
+\indexentry{wget|hyperpage}{27}
+\indexentry{HTTP|hyperpage}{27}
+\indexentry{Adobe Creative Cloud|hyperpage}{27}
+\indexentry{Adobe|hyperpage}{27}
+\indexentry{Photoshop|hyperpage}{27}
+\indexentry{Autodesk|hyperpage}{27}
+\indexentry{Maya|hyperpage}{27}
+\indexentry{Blender|hyperpage}{27}
+\indexentry{screenshot|hyperpage}{28}
+\indexentry{Blender|hyperpage}{28}
+\indexentry{Game Engine|hyperpage}{28}
+\indexentry{Blender|hyperpage}{28}
+\indexentry{python|hyperpage}{28}
+\indexentry{API|hyperpage}{28}
+\indexentry{IRC|hyperpage}{28}
+\indexentry{Blender development|hyperpage}{28}
+\indexentry{Blender scripting|hyperpage}{28}
+\indexentry{scripting|hyperpage}{28}
+\indexentry{euler|hyperpage}{29}
+\indexentry{rotation|hyperpage}{29}
+\indexentry{robot|hyperpage}{29}
+\indexentry{animation|hyperpage}{29}
+\indexentry{animating|hyperpage}{29}
+\indexentry{Audacity|hyperpage}{29}
+\indexentry{Adobe|hyperpage}{29}
+\indexentry{Rasbian|hyperpage}{29}
+\indexentry{Linux|hyperpage}{29}
+\indexentry{Debian|hyperpage}{29}
+\indexentry{RPi|hyperpage}{29}
+\indexentry{Raspberry Pi|hyperpage}{29}
+\indexentry{Win32DiskImager|hyperpage}{30}
+\indexentry{SD Card|hyperpage}{30}
+\indexentry{port scanner|hyperpage}{30}
+\indexentry{scanner|hyperpage}{30}
+\indexentry{Advanced Port Scanner|hyperpage}{30}
+\indexentry{DHCP|hyperpage}{30}
+\indexentry{SSH|hyperpage}{31}
+\indexentry{password|hyperpage}{31}
+\indexentry{login|hyperpage}{31}
+\indexentry{monitor|hyperpage}{32}
+\indexentry{HDMI|hyperpage}{32}
+\indexentry{composite|hyperpage}{32}
+\indexentry{CLI|hyperpage}{32}
+\indexentry{git|hyperpage}{32}
+\indexentry{python|hyperpage}{32}
+\indexentry{htop|hyperpage}{32}
+\indexentry{robot|hyperpage}{34}
+\indexentry{robotics|hyperpage}{34}
+\indexentry{regionals|hyperpage}{34}
+\indexentry{state|hyperpage}{34}
+\indexentry{BaralabaBob|hyperpage}{34}
+\indexentry{python|hyperpage}{34}
+\indexentry{Beaker|hyperpage}{39}
+\indexentry{BobMobile|hyperpage}{39}
+\indexentry{Baralaba|hyperpage}{39}
+\indexentry{motors|hyperpage}{39}
+\indexentry{laser scanner|hyperpage}{39}
+\indexentry{computer vision|hyperpage}{39}
+\indexentry{Beaker|hyperpage}{39}
+\indexentry{Goombungee|hyperpage}{40}
+\indexentry{exhibit|hyperpage}{40}
+\indexentry{HID|hyperpage}{40}
+\indexentry{joystick|hyperpage}{40}
+\indexentry{Microsoft|hyperpage}{40}
+\indexentry{Kinect|hyperpage}{40}
+\indexentry{BaralabaBob|hyperpage}{40}
+\indexentry{hexapod|hyperpage}{40}
+\indexentry{BobMobile|hyperpage}{40}
+\indexentry{Beaker|hyperpage}{40}
+\indexentry{BaralabaBob|hyperpage}{40}
+\indexentry{beaker|hyperpage}{41}
+\indexentry{joystick|hyperpage}{41}
+\indexentry{Kinect|hyperpage}{41}
+\indexentry{Goombungee|hyperpage}{41}
+\indexentry{languages|hyperpage}{41}
+\indexentry{python|hyperpage}{41}
+\indexentry{C\#|hyperpage}{41}
+\indexentry{SPIN|hyperpage}{41}
+\indexentry{arduino|hyperpage}{41}
+\indexentry{deck|hyperpage}{42}
+\indexentry{hexapod|hyperpage}{42}
+\indexentry{stage|hyperpage}{42}
+\indexentry{end stop|hyperpage}{43}
+\indexentry{microswitch|hyperpage}{43}
+\indexentry{ESCON|hyperpage}{43}
+\indexentry{Maxon|hyperpage}{43}
+\indexentry{portability|hyperpage}{44}
+\indexentry{PVC|hyperpage}{44}
+\indexentry{routine|hyperpage}{47}
+\indexentry{entertainment|hyperpage}{47}
+\indexentry{story|hyperpage}{47}
+\indexentry{storyline|hyperpage}{47}
+\indexentry{regionals|hyperpage}{47}
+\indexentry{states|hyperpage}{47}
+\indexentry{nationals|hyperpage}{47}
+\indexentry{Christmas|hyperpage}{47}
+\indexentry{theme|hyperpage}{47}
+\indexentry{Christmas Tree|hyperpage}{47}
+\indexentry{regionals|hyperpage}{47}
+\indexentry{States|hyperpage}{47}
+\indexentry{routine|hyperpage}{47}
+\indexentry{stage|hyperpage}{47}
+\indexentry{stage|hyperpage}{47}
+\indexentry{stage|hyperpage}{47}
+\indexentry{regionals|hyperpage}{47}
+\indexentry{animating|hyperpage}{47}
+\indexentry{storyline|hyperpage}{47}
+\indexentry{nationals|hyperpage}{47}
+\indexentry{rejection|hyperpage}{47}
+\indexentry{reconciliation|hyperpage}{47}
+\indexentry{states|hyperpage}{47}
+\indexentry{Dance|hyperpage}{48}
+\indexentry{routine|hyperpage}{48}
+\indexentry{audio|hyperpage}{49}
+\indexentry{audio uses|hyperpage}{49}
+\indexentry{synchronization|hyperpage}{49}
+\indexentry{sync|hyperpage}{49}
+\indexentry{music|hyperpage}{49}
+\indexentry{sound effects|hyperpage}{49}
+\indexentry{regionals|hyperpage}{50}
+\indexentry{audio selection|hyperpage}{50}
+\indexentry{routine|hyperpage}{50}
+\indexentry{audio|hyperpage}{50}
+\indexentry{nationals|hyperpage}{50}
+\indexentry{music|hyperpage}{50}
+\indexentry{final audio selection|hyperpage}{51}
+\indexentry{audio editing|hyperpage}{51}
+\indexentry{Audacity|hyperpage}{51}
+\indexentry{Adobe|hyperpage}{51}
+\indexentry{Adobe Audition|hyperpage}{51}
+\indexentry{unique|hyperpage}{56}
+\indexentry{regionals|hyperpage}{56}
+\indexentry{states|hyperpage}{56}
+\indexentry{robot|hyperpage}{56}
+\indexentry{floor space|hyperpage}{56}
+\indexentry{unique movements|hyperpage}{56}
+\indexentry{motor failure|hyperpage}{56}
+\indexentry{movement speed|hyperpage}{56}
+\indexentry{human interaction|hyperpage}{58}
+\indexentry{human_interaction|hyperpage}{59}
+\indexentry{judges|hyperpage}{59}
+\indexentry{nationals|hyperpage}{59}
+\indexentry{routine|hyperpage}{59}
+\indexentry{audience|hyperpage}{59}
+\indexentry{regionals|hyperpage}{59}
+\indexentry{props|hyperpage}{60}
+\indexentry{regionals|hyperpage}{60}
+\indexentry{Rockhampton|hyperpage}{60}
+\indexentry{Christmas|hyperpage}{60}
+\indexentry{audio|hyperpage}{60}
+\indexentry{animating|hyperpage}{60}
+\indexentry{stage|hyperpage}{60}
+\indexentry{animate|hyperpage}{60}
+\indexentry{nationals|hyperpage}{60}
+\indexentry{story|hyperpage}{60}
+\indexentry{audience|hyperpage}{62}
+\indexentry{animating|hyperpage}{65}
+\indexentry{animation|hyperpage}{65}
+\indexentry{hexapod|hyperpage}{65}
+\indexentry{hexapod|hyperpage}{65}
+\indexentry{programming|hyperpage}{65}
+\indexentry{Blender|hyperpage}{65}
+\indexentry{animation|hyperpage}{66}
+\indexentry{3D|hyperpage}{66}
+\indexentry{modeling|hyperpage}{66}
+\indexentry{python|hyperpage}{66}
+\indexentry{scripting|hyperpage}{66}
+\indexentry{student|hyperpage}{66}
+\indexentry{file size|hyperpage}{66}
+\indexentry{open source|hyperpage}{66}
+\indexentry{python|hyperpage}{66}
+\indexentry{TurboCAD|hyperpage}{66}
+\indexentry{3DS|hyperpage}{66}
+\indexentry{blender|hyperpage}{66}
+\indexentry{joints|hyperpage}{66}
+\indexentry{armature|hyperpage}{66}
+\indexentry{hexapod|hyperpage}{66}
+\indexentry{scripting|hyperpage}{66}
+\indexentry{Eante|hyperpage}{66}
+\indexentry{keyframes|hyperpage}{66}
+\indexentry{compiler|hyperpage}{67}
+\indexentry{Blender|hyperpage}{67}
+\indexentry{hexapod|hyperpage}{67}
+\indexentry{bezier|hyperpage}{67}
+\indexentry{linear|hyperpage}{67}
+\indexentry{interpolation|hyperpage}{68}
+\indexentry{interpolating|hyperpage}{68}
+\indexentry{laser|hyperpage}{69}
+\indexentry{laser localization|hyperpage}{69}
+\indexentry{routine|hyperpage}{69}
+\indexentry{regionals|hyperpage}{69}
+\indexentry{LDR|hyperpage}{70}
+\indexentry{phototransistor|hyperpage}{70}
+\indexentry{photodiode|hyperpage}{70}
+\indexentry{beacon|hyperpage}{70}
+\indexentry{linescan|hyperpage}{71}
+\indexentry{sensors|hyperpage}{71}
+\indexentry{bilateration|hyperpage}{71}
+\indexentry{nRF24L01+|hyperpage}{72}
+\indexentry{safety|hyperpage}{72}
+\indexentry{RF|hyperpage}{75}
+\indexentry{RF networking|hyperpage}{75}
+\indexentry{433MHz|hyperpage}{75}
+\indexentry{|hyperpage}{75}
+\indexentry{receiver|hyperpage}{75}
+\indexentry{Jaycar|hyperpage}{75}
+\indexentry{Parallax|hyperpage}{75}
+\indexentry{forums|hyperpage}{75}
+\indexentry{Parallax Forums|hyperpage}{75}
+\indexentry{Propeller Chip|hyperpage}{75}
+\indexentry{nRF24L01+|hyperpage}{76}
+\indexentry{MVP|hyperpage}{76}
+\indexentry{Minimum Viable Product|hyperpage}{76}
+\indexentry{logic analyzer|hyperpage}{76}
+\indexentry{Bluetooth|hyperpage}{79}
+\indexentry{WiFi|hyperpage}{79}
+\indexentry{solution|hyperpage}{79}
+\indexentry{|hyperpage}{79}
+\indexentry{regionals|hyperpage}{80}
+\indexentry{glycerene|hyperpage}{80}
+\indexentry{inverter|hyperpage}{80}
+\indexentry{projection|hyperpage}{84}
+\indexentry{projection mapping|hyperpage}{84}
+\indexentry{helicopter|hyperpage}{85}
+\indexentry{MCU|hyperpage}{85}
+\indexentry{microcontroller|hyperpage}{85}
+\indexentry{3D Printing|hyperpage}{86}
+\indexentry{winch|hyperpage}{86}
+\indexentry{motors|hyperpage}{86}
+\indexentry{Autodesk|hyperpage}{86}
+\indexentry{123D Design|hyperpage}{86}
+\indexentry{Inverse Kinematics|hyperpage}{88}
+\indexentry{MVP|hyperpage}{88}
+\indexentry{Minimum Viable Product|hyperpage}{88}
+\indexentry{lighting|hyperpage}{90}
+\indexentry{Jaycar|hyperpage}{90}
+\indexentry{cellophane|hyperpage}{90}
+\indexentry{regionals|hyperpage}{90}
+\indexentry{Christmas|hyperpage}{90}
+\indexentry{transistor|hyperpage}{90}
+\indexentry{amplifier|hyperpage}{90}
+\indexentry{motor driver|hyperpage}{90}
+\indexentry{Maxon|hyperpage}{90}
+\indexentry{ESCON|hyperpage}{90}
+\indexentry{record|hyperpage}{90}
+\indexentry{button|hyperpage}{90}
+\indexentry{MCU|hyperpage}{90}
+\indexentry{microcontroller|hyperpage}{90}
+\indexentry{regionals|hyperpage}{91}
+\indexentry{Rockhampton|hyperpage}{91}
+\indexentry{timing|hyperpage}{91}
+\indexentry{lights|hyperpage}{91}
+\indexentry{music|hyperpage}{91}
+\indexentry{easy|hyperpage}{91}
+\indexentry{part:part_six|hyperpage}{93}
+\indexentry{documentation|hyperpage}{93}
+\indexentry{outdated|hyperpage}{93}
+\indexentry{inverse kinematics|hyperpage}{93}
+\indexentry{open source|hyperpage}{93}
+\indexentry{BaralabaBob|hyperpage}{95}
+\indexentry{controllers|hyperpage}{96}
+\indexentry{SCC-32|hyperpage}{96}
+\indexentry{Raspberry Pi|hyperpage}{96}
+\indexentry{RPi|hyperpage}{96}
+\indexentry{RPi|hyperpage}{96}
+\indexentry{pinout|hyperpage}{96}
+\indexentry{storage|hyperpage}{97}
+\indexentry{sd|hyperpage}{97}
+\indexentry{SD card|hyperpage}{97}
+\indexentry{BotBoarduino|hyperpage}{98}
+\indexentry{BaralabaBob|hyperpage}{98}
+\indexentry{RPi|hyperpage}{98}
+\indexentry{Raspberry Pi|hyperpage}{98}
+\indexentry{power supply|hyperpage}{99}
+\indexentry{batteries|hyperpage}{99}
+\indexentry{lab power supply|hyperpage}{99}
+\indexentry{microcontroller|hyperpage}{99}
+\indexentry{power circuit|hyperpage}{100}
+\indexentry{brownout|hyperpage}{100}
+\indexentry{USB|hyperpage}{101}
+\indexentry{WiFi|hyperpage}{101}
+\indexentry{LiPo|hyperpage}{101}
+\indexentry{BaralabaBob|hyperpage}{103}
+\indexentry{Raspbian|hyperpage}{104}
+\indexentry{Linux|hyperpage}{104}
+\indexentry{Deebian|hyperpage}{104}
+\indexentry{image|hyperpage}{104}
+\indexentry{ISO|hyperpage}{104}
+\indexentry{Rasberry Pi|hyperpage}{104}
+\indexentry{RPi|hyperpage}{104}
+\indexentry{Win32DiskImager|hyperpage}{104}
+\indexentry{Raspbian|hyperpage}{104}
+\indexentry{install|hyperpage}{104}
+\indexentry{configuration|hyperpage}{104}
+\indexentry{networking|hyperpage}{105}
+\indexentry{ethernet|hyperpage}{106}
+\indexentry{WiFi|hyperpage}{106}
+\indexentry{serial|hyperpage}{106}
+\indexentry{RS-232|hyperpage}{106}
+\indexentry{UART|hyperpage}{106}
+\indexentry{configuration|hyperpage}{106}
+\indexentry{install|hyperpage}{106}
+\indexentry{IP address|hyperpage}{106}
+\indexentry{login|hyperpage}{107}
+\indexentry{ssh|hyperpage}{107}
+\indexentry{terminal|hyperpage}{107}
+\indexentry{file access|hyperpage}{107}
+\indexentry{FTP|hyperpage}{107}
+\indexentry{software|hyperpage}{109}
+\indexentry{Blender|hyperpage}{109}
+\indexentry{PuTTY|hyperpage}{109}
+\indexentry{SSH|hyperpage}{109}
+\indexentry{python|hyperpage}{110}
+\indexentry{PyCharm|hyperpage}{110}
+\indexentry{python|hyperpage}{110}
+\indexentry{FTP|hyperpage}{110}
+\indexentry{FileZilla|hyperpage}{110}
+\indexentry{Blender|hyperpage}{111}
+\indexentry{blender image creation|hyperpage}{111}
+\indexentry{embedded content|hyperpage}{112}
+\indexentry{download-able content|hyperpage}{112}
+\indexentry{programming|hyperpage}{113}
+\indexentry{BaralabaBob|hyperpage}{113}
+\indexentry{backend|hyperpage}{113}
+\indexentry{frontend|hyperpage}{113}
+\indexentry{backend|hyperpage}{114}
+\indexentry{Amelior|hyperpage}{114}
+\indexentry{model|hyperpage}{114}
+\indexentry{mathematical model|hyperpage}{114}
+\indexentry{objective model|hyperpage}{114}
+\indexentry{scripting|hyperpage}{115}
+\indexentry{blender playback|hyperpage}{115}
+\indexentry{scripting|hyperpage}{115}
+\indexentry{ACT files|hyperpage}{115}
+\indexentry{actions|hyperpage}{115}
+\indexentry{keyframe|hyperpage}{115}
+\indexentry{inverse kinematics|hyperpage}{116}
+\indexentry{hexapod|hyperpage}{116}
+\indexentry{shalom|hyperpage}{117}
+\indexentry{BaralabaBob|hyperpage}{117}
+\indexentry{Blender|hyperpage}{119}
+\indexentry{blender location|hyperpage}{119}
+\indexentry{design standards|hyperpage}{119}
+\indexentry{Amelior|hyperpage}{120}
+\indexentry{configuration|hyperpage}{120}
+\indexentry{hexapod configuration|hyperpage}{120}
+\indexentry{config|hyperpage}{120}
+\indexentry{Git|hyperpage}{121}
+\indexentry{GitHub|hyperpage}{121}
+\indexentry{git clone|hyperpage}{121}
+\indexentry{ssh|hyperpage}{122}
+\indexentry{BitBucket|hyperpage}{122}
+\indexentry{dimensions|hyperpage}{123}
+\indexentry{sizes|hyperpage}{123}
+\indexentry{kit|hyperpage}{123}
+\indexentry{maintenance|hyperpage}{125}
+\indexentry{motor burnout|hyperpage}{125}
+\indexentry{motor failure|hyperpage}{125}
+\indexentry{servo|hyperpage}{125}
+\indexentry{sizes|hyperpage}{125}
+\indexentry{screws|hyperpage}{125}

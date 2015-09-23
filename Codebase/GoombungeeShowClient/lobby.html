@@ -1,0 +1,143 @@
+<!-- Displays a "Connecting" dialog. -->
+
+<html>
+    
+<head> 
+    <title>Lynxmotion APod Controller</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+</head>
+
+<body>
+    
+    <div data-role="page" id="lobby" data-theme="a">
+        <div data-role="header"><h1>Lobby</h1></div>
+        
+        <div data-role="content" id="instructions">
+            
+            <h1>Instructions</h1>
+            <p>You are currently in a queue of <span id="numOfPeopleLabel"></span> people. You will have to wait
+            <span id="etaLabel"></span> seconds to have a go.</p>
+            
+            <br>
+            <p>After getting access to the robot, you may use it for <span id="controlTimeLabel"></span> seconds.
+            If you want more time, feel free to reconnect!</p>
+            
+        </div>
+        <div data-role="content" id="error" hidden="none">
+            
+            <center><h1>Error</h1></center>
+            <center><p>It would appear that you did not connect correctly. Please reload the root page.</p></center>
+            
+        </div>
+        
+        <script>
+            /* Does a bit of a self test - Does clientID exist? */
+            if (typeof clientID == "undefined") {
+                $("#instructions").hide()
+                $("#error").show()
+            }
+            
+            
+            
+            
+            
+            /* Mess of code that executes multiple ajax queries */
+            /* massAJAX(function onFinishCallback, [queryText, onQueryFinishCallback], ...); */
+            function updateValues() {
+                onComplete = arguments[0];
+                outerArguments = arguments;
+                b = 0;
+                for (var i = 1; i < arguments.length; i++) {
+                    $.ajax({
+                        type: "POST",
+                        url: "api.php",
+                        data: {message: "~'command':'{}'~".format(arguments[i][0])},
+                        success: function(data){this.callback(data); onGot(data)},
+                        context:{callback: arguments[i][1]},
+                        dataType: "text"
+                    });
+                }
+                c = 0;     
+                function onGot(data){
+                    c = c + 1;
+                    if ((outerArguments.length-1) == c) {
+                        onComplete();
+                    }
+                }
+            }
+            
+            queuedPeople = 10;
+            controlTime = 10;
+            controlETA = 10;
+            updateLoopTimeoutID = 0;
+            
+            function updateLoop(){
+                updateValues(onFinish,
+                         ["cookieDump {}".format(JSON.stringify($.cookie())), function(){}],
+                         ["getControlTime {}".format(clientID), onGetControlTime],
+                         ["getQueuedPeople {}".format(clientID), onGetQueuedPeople],
+                         ["getETA {}".format(clientID), onGetETA]);
+                
+                function onGetControlTime(data) {controlTime = JSON.parse(data).response}
+                function onGetQueuedPeople(data) {queuedPeople = JSON.parse(data).response}
+                function onGetETA(data) {controlETA = JSON.parse(data).response}
+                function onFinish(){
+                    $("#numOfPeopleLabel").text(queuedPeople);            
+                    $("#controlTimeLabel").text(controlTime);
+                    $("#etaLabel").text(controlETA);
+                }
+                
+                t1 = setTimeout(updateETA, 1000);
+                t2 = setTimeout(updateETA, 2000);
+                t3 = setTimeout(updateETA, 3000);
+                t4 = setTimeout(updateETA, 4000);                
+                updateLoopTimeoutID = setTimeout(updateLoop, 5000);                     
+            }
+            
+            function updateETA(){
+                controlETA--;
+                if (controlETA <= 0) {
+                    setTimeout(connectToRobot, 100)
+                    window.clearTimeout(t1);
+                    window.clearTimeout(t2);
+                    window.clearTimeout(t3);
+                    window.clearTimeout(t4);
+                    window.clearTimeout(updateLoopTimeoutID);
+                } else {
+                    $("#etaLabel").text(controlETA);
+                }                    
+                
+            }
+            
+            function connectToRobot(){
+                function connectResponse(data){
+                    data = JSON.parse(data);                    
+                    if (data.response == "True") {
+                        $.mobile.changePage("control.html");
+                    } else{
+                        console.log("Things are taking a little longer than expected, hold on...");
+                        setTimeout(connectToRobot, 500);
+                    }
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "api.php",
+                    data: {message: "~'command':'{} {}'~".format("isTurn", clientID)},
+                    success: connectResponse,
+                    dataType: "text"
+                });
+            }            
+            
+            //Make sure to clear the timeout!
+            
+            updateLoop()
+            
+        </script>
+        
+    </div>
+    
+</body>
+</html>

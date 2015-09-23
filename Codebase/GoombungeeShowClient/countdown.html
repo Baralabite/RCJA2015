@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Displays a "Connecting" dialog. -->
+
+<html>
+    
+<head> 
+    <title>Lynxmotion APod Controller</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+    <script src="external/jquery.cookie.js"></script>
+    <script src="util.js"></script>
+</head>
+
+<body>
+    
+    <center>
+        <div data-role="header" data-theme="b"><h1>Sequences</h1></div>
+        
+        <br><br><br>
+        
+        <h1>Time Until Next Mexican Wave: <span id="time"><b>5:00 minutes</b></span></h1>
+    
+        <p>This exhibit is currently being improved to more movements as well as the mexican wave!</p>
+    </center>
+    
+    <script>
+        
+        clientID = "MASTER";
+        
+        var time = 300;
+        setTimeout(countdown, 1000);
+        
+        function countdown() {
+            time--;
+            var minutes = Math.floor(time / 60);
+            var seconds = time - minutes * 60;
+            $("#time").text(minutes+":"+seconds+" minutes");
+            setTimeout(countdown, 1000);
+            if(time==0){
+                time = 600;
+                mexicanWave();                
+            }
+        }
+        
+    </script>
+    
+</body>
+</html>

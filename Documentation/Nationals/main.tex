@@ -1,0 +1,91 @@
+%%==========[ Document Class Definition ]==========%% 
+\documentclass[12pt]{report}
+
+%%==========[ Package Inclusions and Settings ]==========%% 
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{pdfpages}
+\usepackage{listings}
+\usepackage{makeidx}
+
+%%==========[ Preamble Settings ]==========%% 
+\graphicspath{{images/}}
+\makeindex  
+  
+%%==========[ Document ]==========%%   
+
+\begin{document}
+
+    \begin{titlepage}
+        \title{
+            {RoboCup Manual - Nationals 2015, Adelaide}\\
+            {\large Baralaba Robotics}\\
+            {\large Open Dance}\\
+            [1.25cm]
+            {\includegraphics[width=0.5\linewidth]{images/Feathering.png}}
+        }
+        \author{John Board}
+        \maketitle
+    \end{titlepage}
+    
+    \pagebreak
+    \vspace{10cm}
+    \centerline{Page intentionally left blank.}
+    \pagebreak 
+    
+    %%==========[ Abstract and Acknowledgements ]==========%%   
+    
+    \pagenumbering{roman}
+    \setcounter{page}{1}
+    
+    \addcontentsline{toc}{part}{Abstract}
+    \chapter*{Abstract}
+        \input{abstract}
+    
+    \addcontentsline{toc}{part}{Acknowledgements}
+    \chapter*{Acknowledgements}
+        \input{acknowledgements}
+    
+    %%==========[ Table of Contents ]==========%%  
+    
+    \tableofcontents
+    \pagebreak
+    
+    %%==========[ Content ]==========%%   
+    
+    \addcontentsline{toc}{part}{Introduction}
+    \input{introduction}
+    
+    \pagebreak
+    
+    
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
+    
+    \input{parts/part_one/part_one}		%%Metadata
+        
+    \input{parts/part_two/part_two}		%%Log
+    
+    \input{parts/part_three/part_three} %%Performance
+    
+    \input{parts/part_four/part_four}	%%Routine Development
+    
+    \input{parts/part_five/part_five}	%%Research and Development
+    
+    \input{parts/part_six/part_six}		%%BaralabaBob Technical Manual
+    
+    \part{Appendix}
+    	\chapter{Test \& Tag Inventory}
+        	All equipment used at RoboCup Nationals 2015 has been tested and tagged according to regulations. Here is an inventory of tags that you can find associated with any of our electrical equipment.\\
+        	\includepdf[pages={1}]{pdfs/TagInventory.pdf}
+            
+		\chapter{Bill of Materials}
+        	If I have time, I will fill out this section with the BOM details that I still have access to.\\
+            
+	\part{Index}            
+    	\printindex    	        
+
+    %%==========[ Appendix ]==========%%  
+
+\end{document}

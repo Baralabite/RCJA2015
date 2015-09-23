@@ -1,0 +1,16 @@
+		\chapter{Lighting}
+        	\index{lighting}
+			As time went by I realized that having some sort of lighting within the stage to light the fog could add a great deal of atmosphere.\\
+			
+			Originally the plan was to use some large and expensive LED strip from \index{Jaycar}Jaycar. I realized that with the time I had available, this would not be a valid solution. Whilst thinking about this problem I came up with the solution of using a powerful headlamp that I own, and then putting the correct colored \index{cellophane}cellophane in front of it to change the light's color.\\
+			
+			I attached the headlamp to the stage and tested it with fog to great success. The idea was that the light could pulse in time to the music - or at least the first song, \textit{Carminia Burana, O Fortuna}.\\
+			
+			To drive the torch, I used a motor driver. This idea originally came to me as I was preparing for RoboCup Rockhamption \index{regionals}Regionals. I needed to drive some \index{Christmas}Christmas lights - and whilst I could have created some fancy \index{transistor}transistor \index{amplifier}amplifier, I realized that a \index{motor driver} motor driver could do the same job.\\
+			
+			I carried this idea over and settled on using some spare \index{Maxon}\index{ESCON}ESCON 36/2 motor drivers to drive the lights.\\
+			
+            \index{record}\index{button}\index{MCU}
+			As for getting the lights in sync with the music, I developed code to allow me to "prerecord via buttonpress" the right timing. For example, I play the song through a first time, and press a button on the \index{microcontroller}microcontroller every time I want the lights to come on. The MCU records this, and then can play it back.\\
+			
+			I implemented this solution after \index{regionals}Regionals in \index{Rockhampton}Rockhampton where I had to manually type in the \index{timing}timing of the \index{lights}lights. To test them I had to listen to ~90 seconds of music\index{music} before I actually got to the part where the lights were - which was obviously time consuming. This system is much simpler, and very easy\index{easy} to implement.\\

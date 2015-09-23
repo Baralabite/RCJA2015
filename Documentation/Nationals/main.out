@@ -1,0 +1,149 @@
+\BOOKMARK [-1][-]{Doc-Start}{Abstract}{}% 1
+\BOOKMARK [-1][-]{chapter*.1}{Acknowledgements}{}% 2
+\BOOKMARK [-1][-]{chapter*.3}{Introduction}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{Accompanying Resources}{chapter*.3}% 4
+\BOOKMARK [1][-]{section*.5}{Wiki}{chapter*.4}% 5
+\BOOKMARK [2][-]{section*.6}{GitHub}{section*.5}% 6
+\BOOKMARK [2][-]{section*.7}{YouTube}{section*.5}% 7
+\BOOKMARK [2][-]{section*.8}{Facebook}{section*.5}% 8
+\BOOKMARK [2][-]{section*.9}{Website}{section*.5}% 9
+\BOOKMARK [1][-]{section*.10}{How to Read}{chapter*.4}% 10
+\BOOKMARK [1][-]{section*.11}{Revisions}{chapter*.4}% 11
+\BOOKMARK [1][-]{section*.12}{Contact}{chapter*.4}% 12
+\BOOKMARK [-1][-]{part.1}{I Metadata}{}% 13
+\BOOKMARK [0][-]{chapter.1}{History}{part.1}% 14
+\BOOKMARK [1][-]{section.1.1}{BaralabaBob}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.2}{Beaker}{chapter.1}% 16
+\BOOKMARK [1][-]{section.1.3}{Conclusion}{chapter.1}% 17
+\BOOKMARK [0][-]{chapter.2}{Team}{part.1}% 18
+\BOOKMARK [1][-]{section.2.1}{John Board}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.1.1}{History}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.2}{Media}{section.2.1}% 21
+\BOOKMARK [2][-]{subsection.2.1.3}{This Year}{section.2.1}% 22
+\BOOKMARK [2][-]{subsection.2.1.4}{Next Year}{section.2.1}% 23
+\BOOKMARK [0][-]{chapter.3}{Sharing}{part.1}% 24
+\BOOKMARK [-1][-]{part.2}{II Log}{}% 25
+\BOOKMARK [0][-]{chapter.4}{August 2015}{part.2}% 26
+\BOOKMARK [1][-]{section.4.1}{August 28th/29th, 2015}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.2}{August 30th, 2015}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.3}{August 31st, 2015}{chapter.4}% 29
+\BOOKMARK [0][-]{chapter.5}{September 2015}{part.2}% 30
+\BOOKMARK [1][-]{section.5.1}{September 1st, 2015}{chapter.5}% 31
+\BOOKMARK [1][-]{section.5.2}{September 2nd, 2015}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.3}{September 3rd, 2015}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.4}{September 11th, 2015}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.5}{September 12th, 2015}{chapter.5}% 35
+\BOOKMARK [-1][-]{part.3}{III Performance}{}% 36
+\BOOKMARK [0][-]{chapter.6}{Robots}{part.3}% 37
+\BOOKMARK [1][-]{section.6.1}{BaralabaBob}{chapter.6}% 38
+\BOOKMARK [2][-]{subsection.6.1.1}{Technical Manual}{section.6.1}% 39
+\BOOKMARK [2][-]{subsection.6.1.2}{Construction}{section.6.1}% 40
+\BOOKMARK [2][-]{subsection.6.1.3}{Software}{section.6.1}% 41
+\BOOKMARK [1][-]{section.6.2}{BobMobile}{chapter.6}% 42
+\BOOKMARK [2][-]{subsection.6.2.1}{History}{section.6.2}% 43
+\BOOKMARK [2][-]{subsection.6.2.2}{Controllers}{section.6.2}% 44
+\BOOKMARK [2][-]{subsection.6.2.3}{Software}{section.6.2}% 45
+\BOOKMARK [2][-]{subsection.6.2.4}{Decks}{section.6.2}% 46
+\BOOKMARK [1][-]{section.6.3}{Stage}{chapter.6}% 47
+\BOOKMARK [2][-]{subsection.6.3.1}{Sub-systems}{section.6.3}% 48
+\BOOKMARK [2][-]{subsection.6.3.2}{The Fog}{section.6.3}% 49
+\BOOKMARK [2][-]{subsection.6.3.3}{The Lighting}{section.6.3}% 50
+\BOOKMARK [2][-]{subsection.6.3.4}{Button-sync}{section.6.3}% 51
+\BOOKMARK [2][-]{subsection.6.3.5}{Design Considerations}{section.6.3}% 52
+\BOOKMARK [0][-]{chapter.7}{Props}{part.3}% 53
+\BOOKMARK [-1][-]{part.4}{IV Routine Development}{}% 54
+\BOOKMARK [0][-]{section.7.1}{Parts of a Routine}{part.4}% 55
+\BOOKMARK [0][-]{chapter.8}{Audio}{part.4}% 56
+\BOOKMARK [1][-]{section.8.1}{Audio Uses}{chapter.8}% 57
+\BOOKMARK [1][-]{section.8.2}{Audio Selection}{chapter.8}% 58
+\BOOKMARK [1][-]{section.8.3}{Audio Editing}{chapter.8}% 59
+\BOOKMARK [2][-]{subsection.8.3.1}{Fade In/Fade Out}{section.8.3}% 60
+\BOOKMARK [2][-]{subsection.8.3.2}{Cutting Parts of the Song Together}{section.8.3}% 61
+\BOOKMARK [0][-]{chapter.9}{Robot Performance/Animation}{part.4}% 62
+\BOOKMARK [1][-]{section.9.1}{Animation}{chapter.9}% 63
+\BOOKMARK [1][-]{section.9.2}{Performance}{chapter.9}% 64
+\BOOKMARK [0][-]{chapter.10}{Human Performance}{part.4}% 65
+\BOOKMARK [1][-]{section.10.1}{Human Interaction Incidence}{chapter.10}% 66
+\BOOKMARK [1][-]{section.10.2}{Stage Presence/Audience Interactivity}{chapter.10}% 67
+\BOOKMARK [0][-]{chapter.11}{Props}{part.4}% 68
+\BOOKMARK [0][-]{chapter.12}{Story}{part.4}% 69
+\BOOKMARK [-1][-]{part.5}{V Research and Development}{}% 70
+\BOOKMARK [0][-]{chapter.13}{Blender Animation}{part.5}% 71
+\BOOKMARK [1][-]{section.13.1}{Base Software Choice}{chapter.13}% 72
+\BOOKMARK [1][-]{section.13.2}{Model}{chapter.13}% 73
+\BOOKMARK [1][-]{section.13.3}{Scripting}{chapter.13}% 74
+\BOOKMARK [1][-]{section.13.4}{Linear \046 Bezier Modes}{chapter.13}% 75
+\BOOKMARK [0][-]{chapter.14}{Laser Localization System}{part.5}% 76
+\BOOKMARK [1][-]{section.14.1}{System Concepts}{chapter.14}% 77
+\BOOKMARK [1][-]{section.14.2}{Laser Tracking}{chapter.14}% 78
+\BOOKMARK [1][-]{section.14.3}{Issues with the LDR System}{chapter.14}% 79
+\BOOKMARK [1][-]{section.14.4}{Rule Legality \046 Safety Considerations}{chapter.14}% 80
+\BOOKMARK [0][-]{chapter.15}{RF Networking}{part.5}% 81
+\BOOKMARK [1][-]{section.15.1}{433MHz}{chapter.15}% 82
+\BOOKMARK [1][-]{section.15.2}{2.4GHz - nRF24L01+}{chapter.15}% 83
+\BOOKMARK [2][-]{subsection.15.2.1}{2.4GHz interference Solution}{section.15.2}% 84
+\BOOKMARK [0][-]{chapter.16}{Fog}{part.5}% 85
+\BOOKMARK [1][-]{section.16.1}{Projection Mapping}{chapter.16}% 86
+\BOOKMARK [0][-]{chapter.17}{Helicopter}{part.5}% 87
+\BOOKMARK [0][-]{chapter.18}{3D Printing}{part.5}% 88
+\BOOKMARK [0][-]{chapter.19}{Inverse Kinematics}{part.5}% 89
+\BOOKMARK [0][-]{chapter.20}{LaTeX}{part.5}% 90
+\BOOKMARK [0][-]{chapter.21}{Lighting}{part.5}% 91
+\BOOKMARK [-1][-]{part.6}{VI BaralabaBob Technical Manual}{}% 92
+\BOOKMARK [0][-]{chapter.22}{Introduction}{part.6}% 93
+\BOOKMARK [1][-]{section.22.1}{History}{chapter.22}% 94
+\BOOKMARK [1][-]{section.22.2}{Uniqueness}{chapter.22}% 95
+\BOOKMARK [0][-]{chapter.23}{Electronics}{part.6}% 96
+\BOOKMARK [1][-]{section.23.1}{Control Boards}{chapter.23}% 97
+\BOOKMARK [2][-]{subsection.23.1.1}{SCC-32 Servo Controller}{section.23.1}% 98
+\BOOKMARK [2][-]{subsection.23.1.2}{Raspberry Pi Model B}{section.23.1}% 99
+\BOOKMARK [1][-]{section.23.2}{Power Supply}{chapter.23}% 100
+\BOOKMARK [2][-]{subsection.23.2.1}{Lab Power Supply}{section.23.2}% 101
+\BOOKMARK [2][-]{subsection.23.2.2}{Battery}{section.23.2}% 102
+\BOOKMARK [0][-]{chapter.24}{Software}{part.6}% 103
+\BOOKMARK [1][-]{section.24.1}{Operating System}{chapter.24}% 104
+\BOOKMARK [2][-]{subsection.24.1.1}{Image Download}{section.24.1}% 105
+\BOOKMARK [2][-]{subsection.24.1.2}{Building Image}{section.24.1}% 106
+\BOOKMARK [1][-]{section.24.2}{Networking}{chapter.24}% 107
+\BOOKMARK [2][-]{subsection.24.2.1}{Ethernet}{section.24.2}% 108
+\BOOKMARK [2][-]{subsection.24.2.2}{WiFi}{section.24.2}% 109
+\BOOKMARK [2][-]{subsection.24.2.3}{Serial}{section.24.2}% 110
+\BOOKMARK [2][-]{subsection.24.2.4}{Current Configuration}{section.24.2}% 111
+\BOOKMARK [1][-]{section.24.3}{Access}{chapter.24}% 112
+\BOOKMARK [2][-]{subsection.24.3.1}{Terminal}{section.24.3}% 113
+\BOOKMARK [2][-]{subsection.24.3.2}{File}{section.24.3}% 114
+\BOOKMARK [1][-]{section.24.4}{Software Used}{chapter.24}% 115
+\BOOKMARK [2][-]{subsection.24.4.1}{Blender}{section.24.4}% 116
+\BOOKMARK [2][-]{subsection.24.4.2}{PuTTY}{section.24.4}% 117
+\BOOKMARK [2][-]{subsection.24.4.3}{PyCharm}{section.24.4}% 118
+\BOOKMARK [2][-]{subsection.24.4.4}{Python 3.4.3}{section.24.4}% 119
+\BOOKMARK [2][-]{subsection.24.4.5}{FileZilla}{section.24.4}% 120
+\BOOKMARK [1][-]{section.24.5}{Blender}{chapter.24}% 121
+\BOOKMARK [2][-]{subsection.24.5.1}{Building Blender Image}{section.24.5}% 122
+\BOOKMARK [1][-]{section.24.6}{Embedded Content}{chapter.24}% 123
+\BOOKMARK [0][-]{chapter.25}{Programming}{part.6}% 124
+\BOOKMARK [1][-]{section.25.1}{Backend}{chapter.25}% 125
+\BOOKMARK [2][-]{subsection.25.1.1}{Amelior}{section.25.1}% 126
+\BOOKMARK [2][-]{subsection.25.1.2}{Shalom}{section.25.1}% 127
+\BOOKMARK [2][-]{subsection.25.1.3}{BaralabaBob}{section.25.1}% 128
+\BOOKMARK [2][-]{subsection.25.1.4}{GoombungeShowServer}{section.25.1}% 129
+\BOOKMARK [2][-]{subsection.25.1.5}{GoombungeeShowClient}{section.25.1}% 130
+\BOOKMARK [2][-]{subsection.25.1.6}{IKExperiment}{section.25.1}% 131
+\BOOKMARK [2][-]{subsection.25.1.7}{JoystickController}{section.25.1}% 132
+\BOOKMARK [1][-]{section.25.2}{Blender}{chapter.25}% 133
+\BOOKMARK [2][-]{subsection.25.2.1}{Location}{section.25.2}% 134
+\BOOKMARK [2][-]{subsection.25.2.2}{Blender Design Standards}{section.25.2}% 135
+\BOOKMARK [1][-]{section.25.3}{Amelior}{chapter.25}% 136
+\BOOKMARK [2][-]{subsection.25.3.1}{Model Configuration}{section.25.3}% 137
+\BOOKMARK [1][-]{section.25.4}{Git}{chapter.25}% 138
+\BOOKMARK [2][-]{subsection.25.4.1}{Git Clone Instructions}{section.25.4}% 139
+\BOOKMARK [0][-]{chapter.26}{Mechanical}{part.6}% 140
+\BOOKMARK [1][-]{section.26.1}{Dimensions}{chapter.26}% 141
+\BOOKMARK [1][-]{section.26.2}{Kit Information}{chapter.26}% 142
+\BOOKMARK [1][-]{section.26.3}{Maintenance}{chapter.26}% 143
+\BOOKMARK [1][-]{section.26.4}{Motor Burnout}{chapter.26}% 144
+\BOOKMARK [1][-]{section.26.5}{Screw Sizes}{chapter.26}% 145
+\BOOKMARK [-1][-]{part.7}{VII Appendix}{}% 146
+\BOOKMARK [0][-]{chapter.27}{Test \046 Tag Inventory}{part.7}% 147
+\BOOKMARK [0][-]{chapter.28}{Bill of Materials}{part.7}% 148
+\BOOKMARK [-1][-]{part.8}{VIII Index}{}% 149

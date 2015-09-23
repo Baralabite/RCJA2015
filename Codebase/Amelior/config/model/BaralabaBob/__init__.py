@@ -1,0 +1,1 @@
+"""{0: {'Tail_Pitch': 0, 'Jaw_Yaw': 0, 'Leg5_Femur': 0, 'Leg2_Coxa': 0, 'Leg6_Coxa': 0, 'Leg1_Tibia': 0, 'Leg3_Coxa': 0, 'Leg6_Femur': 0, 'Leg4_Tibia': 0, 'Leg2_Tibia': 0, 'Leg2_Femur': 0, 'Jaw_Pitch': 0, 'Leg4_Femur': 0, 'Leg1_Femur': 0, 'Leg5_Coxa': 0, 'Leg5_Tibia': 0, 'Leg1_Coxa': 0, 'Leg3_Femur': 0, 'Leg4_Coxa': 0, 'Leg3_Tibia': 0, 'Leg6_Tibia': 0}"""

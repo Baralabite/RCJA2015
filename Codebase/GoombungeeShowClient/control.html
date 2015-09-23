@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Displays a "Connecting" dialog. -->
+
+<html>
+    
+<head> 
+    <title>Lynxmotion APod Controller</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+</head>
+
+<body>
+    
+    <div id="control" data-role="page">
+        <div data-role="header" data-theme="b"><h1>Control Center</h1></div>
+        <div data-role="content">
+            
+            <!--<center><h1 class="ui-title">Mandibles</h1></center>
+            <button id="closeJaw" class="ui-btn ui-corner-all">Close Jaw</button>
+            <button id="openJaw" class="ui-btn ui-corner-all">Open Jaw</button>
+            
+                
+            <center><h1>Legs</h1></center>
+            <button id="walkForward" class="ui-btn ui-corner-all">Close Jaw</button>
+            <button id="stopWalking" class="ui-btn ui-corner-all">Open Jaw</button>
+            
+            
+            <center><h1>Tail</h1></center>
+            <button id="liftTail" class="ui-btn ui-corner-all">Close Jaw</button>
+            <button id="lowerTail" class="ui-btn ui-corner-all">Open Jaw</button>-->
+            
+            <ul data-role="listview" data-icon="false">
+                
+                <li data-role="list-divider" style="text-align:center">Mandibles</li>                
+                <li><a onclick="openJaw()" style="text-align:center">Jaw Open</a></li>
+                <li><a onclick="closeJaw()" style="text-align:center">Jaw Close</a></li>
+                <li><label for="jawRollSlider">Roll:</label><input id="jawRollSlider" onchange="rollJaw()" type="range" min="50" max="130" value="90" step="10"></li>
+                <li><label for="jawPitchSlider">Pitch:</label><input id="jawPitchSlider" onchange="pitchJaw()" type="range" min="50" max="130" value="90" step="10"></li>
+                <li><label for="jawYawSlider">Yaw:</label><input id="jawYawSlider" onchange="yawJaw()" type="range" min="50" max="130" value="90" step="10"></li>
+                
+                <!--li data-role="list-divider" style="text-align:center">Body</li>                
+                <li><a href="#" style="text-align:center">Walk</a></li>
+                <li><a href="#" style="text-align:center">Stop</a></li-->
+                
+                <li data-role="list-divider" style="text-align:center">Tail</li>                
+                <li><label for="tailPitchSlider">Pitch:</label><input id="tailPitchSlider" onchange="pitchTail()" type="range" min="50" max="130" value="90" step="10"></li>
+                <li><label for="tailYawSlider">Yaw:</label><input id="tailYawSlider" onchange="yawTail()" type="range" min="50" max="130" value="90" step="10"></li>
+                
+            </ul>
+            
+        </div>
+        <div id="footer" data-role="footer" data-position="fixed" data-theme="b"> 
+            <h4 id="timeLeft">Time Left: 30s</h4> 
+        </div> 
+        
+        <script>
+            
+            timeLeftUpdater();
+            
+            /* Jaw Modification Code */
+            
+            
+            
+            
+            function timeLeftUpdater() {
+                if (controlTime>0) {
+                    controlTime--;
+                    $("#timeLeft").text("Time Left: "+controlTime+" seconds");
+                updaterTimeoutInstance = setTimeout(timeLeftUpdater, 1000);
+                } else {
+                    window.clearTimeout(updaterTimeoutInstance);  
+                    $.mobile.changePage("turnupdialog.html");                            
+                }                
+            }
+            
+            
+        </script>        
+    </div>
+    
+</body>
+</html>
