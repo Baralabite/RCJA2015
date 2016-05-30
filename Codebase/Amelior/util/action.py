@@ -45,7 +45,7 @@ class Action:
     def getFrames(self):
         frames = [entry for entry in self.script]
         frames.sort()
-        frames = [f-frames[0] for f in frames]
+        #frames = [f-frames[0] for f in frames]
         return frames
 
 
@@ -58,11 +58,15 @@ class Action:
             t = self.playFrame(x)
             time.sleep(0.001*t)
 
+    """
+    Repeats a loop of the action.
+    Int reps    Number of times to repeat the action
+    %   speed   Speed as expressed in percent to execute action
+    """
     def repeatAction(self, reps, speed=100):
         if speed != 100:
             self.frameRate=(speed/100)*24.0
 
-        print(self.getFrames())
         self.setStartingPositions()
         for rep in range(reps):
             f = self.getFrames()
@@ -86,7 +90,6 @@ class Action:
                         except:
                             print("No new frames!")
                             break
-                        print(currFrame, nextFrame, ((nextFrame-currFrame)/24)*1000)
                         self.playFrame(nextFrame, timeOfFrame=((nextFrame-currFrame)/24)*1000)
                         if GPIO.input(24) == 0:
                             self.hexapod.turnOn()
@@ -126,12 +129,12 @@ class Action:
     def setStartingPositions(self):
         f = self.getFrames()
         del f[0]
-        for bone in self.script[0]:
+        s = min(self.script)
+        for bone in self.script[s]:
             b = self.boneIDToObject(bone)
-            pos = self.script[0][bone]
+            pos = self.script[s][bone]
             try:
                 b.setAngle(pos, time=1)
-                print("Setting",bone,"to",pos)
             except:
                 print("ERROR: Bone prolly jaw or tail. Skipping.", bone)
 

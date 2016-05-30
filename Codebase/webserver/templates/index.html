@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <script src="/static/jquery/jquery-1.11.3.min.js" ></script>
+        <script src="/static/jquery/jquery.mobile-1.4.5.min.js" ></script>
+    </head>
+
+    <body>
+        <div data-role="page" id="pageone">
+
+            <div data-role="header">
+                <h1>Hexapod Controller</h1>
+            </div>
+
+            <div data-role="main" class="ui-content">
+
+                <center><button id="walkForward" style="text-align:center">Walk Forward</button></center>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <center><button id="turnLeft" style="text-align:center">Turn Left</button></center>
+                    </div>
+
+                    <div class="ui-block-b">
+                        <center><button id="turnRight" style="text-align:center">Turn Left</button></center>
+                    </div>
+                </div>
+
+                <center><button id="turnOn" style="text-align:center">Turn On/Off</button></center>
+
+                <center><button id="dance" style="text-align:center">Dance!</button></center>
+                <center><button id="stopRoutine" style="text-align:center">Stop Routine!</button></center>
+
+                <audio id="danceMusic">
+                    <source src="static/audio.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </body>
+
+
+
+    <style>
+        body { -webkit-touch-callout: none !important; }
+        a { -webkit-user-select: none !important; }
+    </style>
+
+    <script>
+
+        $("#turnOn").touchstart(function(){
+            $.ajax("/api/toggleOn")
+        })
+
+        $("#walkForward").touchstart(function(){
+            $.ajax("/api/walkForward")
+        })
+
+        $("#turnLeft").touchstart(function(){
+            $.ajax("/api/turnLeft")
+        })
+
+        $("#turnRight").touchstart(function(){
+            $.ajax("/api/turnRight")
+        })
+
+        $("#walkForward").touchend(function(){
+            $.ajax("/api/stop")
+        })
+
+        $("#turnLeft").touchend(function(){
+            $.ajax("/api/stop")
+        })
+
+        $("#turnRight").touchend(function(){
+            $.ajax("/api/stop")
+        })
+
+        $("#stopRoutine").touchend(function(){
+            $.ajax("/api/stopRoutine")
+        })
+
+        $("#dance").click(function(){
+            $.ajax("/api/dance");
+            document.getElementById("danceMusic").play();
+        });
+
+    </script>
+</html>

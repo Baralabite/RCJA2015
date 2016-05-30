@@ -1,8 +1,6 @@
 from os import path
-import logging
 from time import sleep
 import time
-import sys
 import traceback
 
 from Amelior.event.eventhandler import *
@@ -13,6 +11,8 @@ from Amelior.model import mandibles, legs, tail
 from Amelior.config.configparser import ConfigParser
 from Amelior.util.position3d import Position3D
 import Amelior
+
+
 
 class Hexapod:
     def __init__(self):
@@ -44,6 +44,8 @@ class Hexapod:
         tailConfig = path.join(self.configDir, self.config["tailConfig"])
         self.tail = tail.Tail(tailConfig)
 
+        self.on = False
+
         self.logger.info("Initialized Hexapod!")
 
     def translate(self, x, y, z):
@@ -72,6 +74,8 @@ class Hexapod:
         self.legs.turnOn()
         self.mandibles.turnOn()
         self.tail.turnOn()
+
+        self.on = True
 
     def step(self):
         self.legs.setSpeed(120)
@@ -103,12 +107,19 @@ class Hexapod:
 
         time.sleep(1)
 
+    def updateOffsets(self):
+        self.mandibles.updateOffsets()
+        self.legs.updateOffsets()
+        self.tail.updateOffsets()
+
 
     def turnOff(self):
         #self.turnOn()
         self.legs.turnOff()
         self.mandibles.turnOff()
         self.tail.turnOff()
+
+        self.on = False
 
     def smoothTest(self):
         factor = 1.5

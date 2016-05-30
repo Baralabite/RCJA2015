@@ -50,6 +50,12 @@ class Leg:
             self.speed = 90
             self.setSpeed(self.speed)
 
+
+    def updateOffsets(self):
+        self.coxa.setOffset()
+        self.femur.setOffset()
+        self.tibia.setOffset()
+
     def moveBody(self, position):
         footPosition = self.footPosition
         self.setPosition(self.position.addPosition(position))
@@ -137,17 +143,6 @@ class Leg:
             L1 = coxa.getDistance(target)
             diff = coxa.getDifference(target)
 
-            if self.id in []:
-                print(("="*10)+"[Leg{}Stats]".format(self.id)+("="*10))
-                print("Position:     ", self.position)
-                print("Tibia Tail:   ", self.tibiaTail)
-                print("Diff:         ", diff)
-                print("Target:       ", position)
-                print("G:            ", g)
-                print("Rel Tibia Hme:", self.relativeTibiaHome)
-                print("\n")
-
-
             try:
                 g = math.degrees(math.atan(diff[0]/diff[1]))
             except ZeroDivisionError:
@@ -155,10 +150,6 @@ class Leg:
                 g = 90#math.degrees(math.atan(0.0))
 
             g = (180-abs(g))-90
-
-            """
-            If the leg is moving backward from the current position, invert the angle
-            """
 
             if (self.position.y-diff[1]) < (self.position.y+self.relativeTibiaHome[1]):# and self.id not in [3, 4]:
                 g = g * -1

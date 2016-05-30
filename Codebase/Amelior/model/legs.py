@@ -24,6 +24,10 @@ class Legs:
         self.legs.append(leg.Leg(5, self.config))
         self.legs.append(leg.Leg(6, self.config))
 
+    def updateOffsets(self):
+        for leg in self.legs:
+            leg.updateOffsets()
+
     """
     Returns the specified leg
     """

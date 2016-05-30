@@ -36,6 +36,7 @@
 					\item Run \textit{"sudo apt-get upgrade"}
 					\item Run \textit{"wget --user=[MY BITBUCKET USERNAME] --password=[MY BITBUCKET PASSWORD] https://goo.gl/QlJj7C"} (This downloads a script which will download the required packages.)
 					\item Run \textit{"sh setup\_pi.sh"}. Fill in required information as required! The git clone from GitHub will fail as the repository is no longer located there. Will fix up this issue some time.
+					\item Add "UseDNS no" to the end of \textit{/etc/ssh/sshd\_config}. This disables DNS reverse lookup.
 					\item In the future there will be instructions on how to install the RPi drivers for the new AWUS036NHV WiFi module.
 					\item No need to git clone any repositories onto the device, as repository is installed on my computer, and uploaded using the remote deployment feature in Pycharm, which uploads all files to the RPi.
 					

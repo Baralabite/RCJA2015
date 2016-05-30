@@ -10,11 +10,16 @@ from threading import Thread
 import logging, datetime, time
 from Amelior.util.scriptexecutor import ScriptExecutor
 from Amelior.util.position3d import Position3D
+from Amelior.util.action import Action
 
 class Application():
     def __init__(self):
         self.initLogging()
         self.logger.info("BaralabaBob Hexapod Server")
+
+        self.cached = False
+
+        self.routineRunning = False
 
     """
     Sets up the logging
@@ -82,10 +87,51 @@ class Application():
         shell = InteractiveConsole(vars)
         shell.interact()
 
+    def cacheRoutine(self):
+        if not self.cached:
+            self.createDestroy = Action("createDestroy", self.hexapod)
+            self.clocks = Action("clocks", self.hexapod)
+            self.beatIt = Action("beatIt", self.hexapod)
+            self.allByMyself = Action("allByMyself", self.hexapod)
+            self.lionKing = Action("circleOfLife", self.hexapod)
+            self.cached = True
+
     """
     Routines are temporarily stored here.
     """
     def rcjaRoutine(self):
+        self.routineRunning = True
+        time.sleep(1.6)
+        if not self.routineRunning:
+            self.hexapod.turnOn()
+            return
+        self.createDestroy.repeatAction(1)
+        if not self.routineRunning:
+            self.hexapod.turnOn()
+            return
+        self.clocks.repeatAction(1)
+        if not self.routineRunning:
+            self.hexapod.turnOn()
+            return
+        self.beatIt.repeatAction(1)
+        if not self.routineRunning:
+            self.hexapod.turnOn()
+            return
+        self.allByMyself.repeatAction(1)
+        if not self.routineRunning:
+            self.hexapod.turnOn()
+            return
+        self.lionKing.repeatAction(1)
+        if not self.routineRunning:
+            self.hexapod.turnOn()
+            return
+
+        """self.se.playAction("createDestroy")
+        self.se.playAction("clocks")
+        self.se.playAction("beatIt")
+        self.se.playAction("allByMyself")"""
+
+    def rcjaStateRoutine(self):
         time.sleep(15.6)
         self.se.playAction("CarminiaBurana")
         time.sleep(1.5)
@@ -105,11 +151,29 @@ class RPyCService(rpyc.Service):
 
     def on_disconnect(self):
         # code that runs when the connection has already closed
-        # (to finalize the service, if needed)
+        # (to finalzize the service, if needed)
         pass
 
     def exposed_get_app(self): # this is an exposed method
         return app
+
+    def exposed_get(self):
+        return app.se
+
+    def exposed_move(self, case):
+        if case == 0:
+            app.se.playAction("walkForward_")
+        elif case == 1:
+            app.se.playAction("walkBackward_")
+        elif case == 2:
+            app.se.playAction("walkLeft_")
+        elif case == 3:
+            app.se.playAction("walkRight_")
+        elif case == 4:
+            app.se.playAction("turnLeft_")
+        elif case == 5:
+            app.se.playAction("turnRight_")
+
 
     def get_question(self):  # while this method is not exposed
         return "what is the airspeed velocity of an unladen swallow?"

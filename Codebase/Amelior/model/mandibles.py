@@ -10,6 +10,13 @@ class Mandibles:
         self.yaw = joint.Joint("mandiblesYaw", self.config, parentName="mandiblesYaw")
         self.roll = joint.Joint("mandiblesRoll", self.config, parentName="mandiblesRoll")
 
+    def updateOffsets(self):
+        self.leftJaw.setOffset()
+        self.rightJaw.setOffset()
+        self.pitch.setOffset()
+        self.yaw.setOffset()
+        self.roll.setOffset()
+
     def turnOn(self):
         self.leftJaw.turnOn()
         self.rightJaw.turnOn()

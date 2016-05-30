@@ -9,6 +9,10 @@ class Tail:
         self.pitch = joint.Joint("tailPitch", self.config, parentName="tailPitch")
         self.yaw = joint.Joint("tailYaw", self.config, parentName="tailYaw")
 
+    def updateOffsets(self):
+        self.pitch.setOffset()
+        self.yaw.setOffset()
+
     def turnOn(self):
         self.pitch.turnOn()
         self.yaw.turnOn()

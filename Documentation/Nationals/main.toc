@@ -165,5 +165,8 @@
 \contentsline {section}{\numberline {26.5}Screw Sizes}{125}{section.26.5}
 \contentsline {part}{VII\hspace {1em}Appendix}{126}{part.7}
 \contentsline {chapter}{\numberline {27}Test \& Tag Inventory}{127}{chapter.27}
-\contentsline {chapter}{\numberline {28}Bill of Materials}{129}{chapter.28}
-\contentsline {part}{VIII\hspace {1em}Index}{130}{part.8}
+\contentsline {chapter}{\numberline {28}Rules}{129}{chapter.28}
+\contentsline {chapter}{\numberline {29}Interview Scoresheet}{144}{chapter.29}
+\contentsline {chapter}{\numberline {30}Performance Scoresheet}{146}{chapter.30}
+\contentsline {chapter}{\numberline {31}Bill of Materials}{148}{chapter.31}
+\contentsline {part}{VIII\hspace {1em}Index}{149}{part.8}
